@@ -39,7 +39,7 @@ form.addEventListener('submit', (e) => {
         return;
     }
 
-    successMessage.style.display = 'block';
+    successMessage.classList.add('active');
 
     // Reset form and progress after 2 seconds
     setTimeout(() => {
@@ -70,5 +70,8 @@ form.addEventListener('submit', (e) => {
         progressBar.style.backgroundColor = 'var(--bar-fill)';
         progressText.innerText = '0% Complete';
         updateButton.disabled = true;
-        successMessage.style.display = 'none';
+        
+        successMessage.classList.remove('active');
+        emailError.classList.remove('active');
+        passwordError.classList.remove('active');
     }
