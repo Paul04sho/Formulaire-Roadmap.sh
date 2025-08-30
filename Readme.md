@@ -20,7 +20,7 @@ Il intègre une validation en temps réel, une barre de progression animée, ain
 Formulaire-Roadmap.sh/
 |--index.html
 |--Css/
-| |__styles.css
+|--styles.css
 |--app.js
 |--Readme.md
 
@@ -50,7 +50,12 @@ graphique.
 ## 👨‍💻  Cas d'utilisation et potentiel commercial
 
 Ce projet peut être utilisé:
+
 • Comme page d'inscription ou de connexion pour des applications web.
+
 • Pour la collecte d'informations utilisateurs (newsletter, formulaires internes, etc.).
+
 • Comme exemple pédagogique pour l'apprentissage du DOM et de la validation en JS.
+
 • Comme template réutilisable et personnalisable à vendre sur des marketplaces.
+
